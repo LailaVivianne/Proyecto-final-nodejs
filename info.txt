@@ -1,0 +1,59 @@
+CÓMO ACCEDER AL PROYECTO
+
+Para acceder a mi proyecto, siga estos pasos:
+
+Abra la carpeta "proyectofinal" que se le proporcionó. En esta carpeta, encontrará dos subcarpetas: "base_de_datos" y "app".
+
+En primer lugar, acceda a la carpeta "base_de_datos". Aquí se encuentra mi base de datos MySQL, que deberá instalar y utilizar a través de phpMyAdmin, MySQL Workbench o cualquier otra herramienta de gestión de MySQL.
+
+Una vez que haya instalado la base de datos, regrese a la carpeta principal, abra su editor de código (como Visual Studio Code) y abra la terminal.
+
+Ejecute los siguientes comandos en la terminal: npm init -y
+						npm install express ejs mysql
+
+Esto instalará las dependencias necesarias para la aplicación.
+
+Luego, acceda a la carpeta "app_tarea" y abra el archivo "app.js" en su editor de código.
+
+En la terminal, ejecute el siguiente comando para iniciar la aplicación: node app
+
+El proyecto estará disponible en su navegador en la dirección http://localhost:3000.
+
+En la página de inicio de sesión, puede usar las siguientes credenciales para acceder:
+
+1.Usuario: admin@yahoo.com - Contraseña: 1234
+2.Usuario: user@yahoo.com - Contraseña: 12345
+3.Usuario: user2@yahoo.com - Contraseña: 12345
+
+Nota: Tenga en cuenta que el proyecto no utiliza MongoDB, ya que se desarrolló utilizando una base de datos MySQL, por lo que no es compatible con MongoDB.
+
+
+
+DESCRIPCION DEL PROYECTO
+
+El proyecto trata sobre una aplicación de gestión de tareas. En esta aplicación, los usuarios pueden crear nuevas tareas, editar tareas existentes y eliminar tareas. Para acceder a la tabla de tareas, se requiere un proceso de inicio de sesión. En este proceso, los usuarios pueden autenticarse utilizando sus credenciales en la base de datos MySQL de phpMyAdmin, denominada 'proyecto_tareas'.
+
+En la tabla de inicio de sesión ('login'), se encuentran tres conjuntos de credenciales válidas para los usuarios:
+
+1.Usuario: admin@yahoo.com - Contraseña: 1234
+2.Usuario: user@yahoo.com - Contraseña: 12345
+3.Usuario: user2@yahoo.com - Contraseña: 123456
+
+Inicialicé el proyecto escribiendo en mi terminal el comando npm init -y. Luego, instalé los siguientes módulos ejecutando npm install express ejs mysql.
+
+He creado dos archivos principales: app.js y router.js. En app.js, configuré la lógica principal de la aplicación, mientras que en router.js gestioné todas las rutas.
+
+También he creado una carpeta llamada 'views' que contiene varios archivos:
+
+-login.ejs: Esta página es la principal para la funcionalidad de inicio de sesión.
+-index.ejs: Aquí se muestra la tabla principal de las tareas.
+-crear.ejs: Esta vista permite crear nuevas tareas.
+-editar.ejs: En esta vista, se pueden editar las tareas existentes.
+Para la gestión de la base de datos MySQL en phpMyAdmin, he creado una carpeta llamada 'database'. En ella, se encuentra el archivo db.js, donde establecí la conexión con la base de datos.
+
+Además, en la carpeta 'controllers', he creado un archivo llamado crud.js para exportar y guardar las tareas.
+
+En lo que respecta al diseño, utilicé Bootstrap y Boxicons para mejorar la apariencia de las vistas. También agregué estilos personalizados al archivo de CSS, que escribí directamente en la sección 'style' de las páginas para darles un aspecto más atractivo."
+
+Espero que esta corrección te sea útil. Si tienes alguna pregunta adicional o necesitas más ayuda, no dudes en preguntar.
+

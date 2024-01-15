@@ -1,0 +1,10 @@
+El proyecto es sobre una app de tareas donde hay unas tareas, se pueden añadir mas tareas, editarlas o eliminarlas. Para entrar a la tabla de las tareas hay que hacer un login donde se pueden conectar 3 usuarios de mi db mysql phpmyadmin(proyecto_tareas), en la tabla(login) con los siguientes users y contraseñas:
+
+  - admin@yahoo.com - 1234
+  - user@yahoo.com - 12345
+  - user2@yahoo.com - 123456
+
+Incialize el proyecto escribiendo en mi terminal npm init -y, instale los siguientes modulos npm install express ejs mysql.
+He creado mi archivo principal que es app.js,otro archivo que es router.js donde conectare todas las rutas, luego he creado una carpeta con las vistas donde se encuentran los siguientes archivos login.ejs que es la pagina principal donde hacemos el login, index.ejs donde se encuentra la tabla principal de las tareas, crear.ejs donde podemos crear una nueva tarea y editar.ejs donde podemos editar las tareas, tengo tambien otra carpeta database donde encontramos el archivo db.js que es donde creamos la conexion con la base de datos de mysql phpmyadmin, y otra carpeta controllers donde esta el archivo crud.js para exportar y guardar las tareas.
+Para la parte de las vistas he utilizado bootstrap y boxicons para darle un aspecto mejor, y el css lo escribi directo en el style donde quise ponerle un mejor estilo.
+
